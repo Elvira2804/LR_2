@@ -47,11 +47,11 @@ int z2()
 
 int z3()
 {
-	float L = 1323;
-	float n = 2;
+	int L = 1323;
+	int n = 2;
 	int k = 3;
 	int m = 7;
 
-	printf("Дано: \n %.0f\n -----\n %.0f\n Ответ:\n %+0*.*f\n", n, L, k + m + 2, m, (n / L));
+	printf("Дано: \n %d\n -----\n %d\n Ответ:\n %+0*.*f\n", n, L, k + m + 2, m,  (1.0 * n / L));
 	return 0;
 }
